@@ -1,0 +1,14 @@
+html {
+    box-sizing: content-box;
+}
+
+body {
+    background-image: linear-gradient(red, yellow, blue);
+}
+
+input {
+ border-radius: 1em;
+ max-width: 100%;
+ margin: 2rem;
+}
+
