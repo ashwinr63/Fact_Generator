@@ -8,29 +8,19 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Interesting Facts</h1>
-    <form id="form" class="input">
-        <h2>Year</h2>
-        <br />
-        <input type="text" id="year" />
-        <p class="Year"></p>
-        <br />
-        <input type="button" value="Get" class="button"/>
-        <br />
-        <h2>Number</h2>
-        <br />
-        <input type="number" id="trivia"/>
-        <p class='Trivia'></p>
-        <br />
-        <input type="button" value="Get" class="button"/>
-        <br />
-        <h2>Any</h2>
-        <br />
-        <input type="text" id="fact" />
-        <p class="Fact"></p>
-        <br />
-        <input type="button" value="Get" class="button"/>
-    </form>
+
+    <div class="container">
+        <main class="fact">
+            <h2 class="header">Fact Generator</h2>
+            <form class="form" id="input">
+                <input type="text" id="randomgen">
+                <input type="button" class="button" value="Submit">
+                <p>Enter <strong>year, math, trivia or date</strong></p>
+            </form>
+            <div class="dataDisplay" id="dataDisplay"></div>
+        </main>
+    </div>
+   
     <script src="./scripts.js"></script>
 </body>
 </html>
