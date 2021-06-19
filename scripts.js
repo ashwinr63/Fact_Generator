@@ -32,7 +32,7 @@ button.addEventListener('click', function() {
             </tr>
             <br/>
             <tr>
-            <th class="number">Number</th>
+            <th class="number">Fact Number</th>
             <td>${response.number}</td>
             </tr>
         </table>
